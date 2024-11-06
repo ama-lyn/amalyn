@@ -1,16 +1,15 @@
 import React from "react";
 import Link from "next/link";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 
 const Header = () => {
   return (
     <div className="flex justify-between py-6">
       <div>
         <Link href="/">
-          <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>GA</AvatarFallback>
-          </Avatar>
+          <div className="avatar rounded-full min-h-12 min-w-12 bg-[#FF1493] text-white  font-[700] flex items-center justify-center">
+            <p>GA</p>
+          </div>
         </Link>
       </div>
       <div className="flex gap-10 text-lg">

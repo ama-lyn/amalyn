@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Gwendolyn Amanda",
+  title: "🎀 Gwendolyn Amanda",
   description: "amalyn",
 };
 

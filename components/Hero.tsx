@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Hero = () => {
   return (
     <div className="py-20 w-3/4">
@@ -15,6 +16,7 @@ const Hero = () => {
         front-end and back-end technologies. I’m always looking for new ways to
         solve problems through code and design.
       </p>
+
     </div>
   );
 };
