@@ -12,11 +12,11 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <div className="flex gap-10 text-lg">
-        <Link href="/about">About</Link>
-        <Link href="/blogs">Blogs</Link>
-        <Link href="/projects">Projects</Link>
-        <Link href="/snippets">Snippets</Link>
+      <div className="flex gap-16 text-lg ">
+        <Link href="/about" className="hover:text-[#FF1493]">About</Link>
+        <Link href="/blogs" className="hover:text-[#FF1493]">Blogs</Link>
+        <Link href="/projects" className="hover:text-[#FF1493]">Projects</Link>
+        <Link href="/snippets" className="hover:text-[#FF1493]">Snippets</Link>
       </div>
     </div>
   );
